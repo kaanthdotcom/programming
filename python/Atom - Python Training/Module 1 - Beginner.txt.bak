@@ -1,0 +1,34 @@
+For Presentation:
+Fundamentals of Python
+Numeric, String, List, Dictionary, Tuple, File Types & Operations
+Statements and Syntax
+Functions, Scope, and Arguments
+Modules, attributes, Imports, and Packages
+Object Oriented Programming
+Delegation, Composition, Subclassing, static methods
+Exceptions Handling Mechanism
+Managed attributes, Decorators, and Metaclasses
+
+
+Why is Python widely used?
+Understanding the interpreter, byte code, PVM, and more
+The interactive prompt, IDLE, and other IDE
+A brief introduction to Python’s core object types
+A tour of Python’s numeric object types
+Python’s dynamic typing model
+An in-depth tour of the string object type
+Explore the list, dictionary, tuple, and the file.
+The general rules for coding statements and blocks of code
+Exploring assignments, expressions, and print operations
+Multiway branching, looping statements
+Iteration protocol and list comprehensions
+A tour of program documentation
+The core ideas behind function definition, scopes, and arguments
+Understanding recursive functions, function annotations, lambda, and more
+Modules, attributes, imports, and packages
+The classic Object Oriented Programming
+Classes, methods, and inheritance
+Operator overloading
+Delegation, composition, subclassing, static methods
+Exceptions handling mechanism
+Managed attributes, decorators, and metaclasses

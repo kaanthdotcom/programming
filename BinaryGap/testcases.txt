@@ -1,0 +1,50 @@
+Analysis
+expand allExample tests
+▶example1
+example test n=1041=10000010001_2✔OK
+▶example2
+example test n=15=1111_2✔OK
+▶example3
+example test n=32=100000_2✘WRONG ANSWER
+got 4 expected 0
+expand allCorrectness tests
+▶extremes
+n=1, n=5=101_2 and n=2147483647=2**31-1✘WRONG ANSWER
+got 0 expected 1
+▶trailing_zeroes
+n=6=110_2 and n=328=101001000_2✘WRONG ANSWER
+got 4 expected 2
+▶power_of_2
+n=5=101_2, n=16=2**4 and n=1024=2**10✘WRONG ANSWER
+got 0 expected 1
+▶simple1
+n=9=1001_2 and n=11=1011_2✘WRONG ANSWER
+got 0 expected 1
+▶simple2
+n=19=10011 and n=42=101010_2✘WRONG ANSWER
+got 0 expected 1
+▶simple3
+n=1162=10010001010_2 and n=5=101_2✘WRONG ANSWER
+got 0 expected 1
+▶medium1
+n=51712=110010100000000_2 and n=20=10100_2✘WRONG ANSWER
+got 8 expected 2
+▶medium2
+n=561892=10001001001011100100_2 and n=9=1001_2✘WRONG ANSWER
+got 5 expected 3
+▶medium3
+n=66561=10000010000000001_2✔OK
+▶large1
+n=6291457=11000000000000000000001_2✔OK
+▶large2
+n=74901729=100011101101110100011100001✘WRONG ANSWER
+got 7 expected 4
+▶large3
+n=805306373=110000000000000000000000000101_2✔OK
+▶large4
+n=1376796946=1010010000100000100000100010010_2✘WRONG ANSWER
+got 10 expected 5
+▶large5
+n=1073741825=1000000000000000000000000000001_2✔OK
+▶large6
+n=1610612737=1100000000000000000000000000001_2

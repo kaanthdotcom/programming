@@ -1,0 +1,6 @@
+#just a first python script
+import sys
+print(sys.platform)
+print('Hello')
+q='Heyj Srikanth'
+print(q*4)
