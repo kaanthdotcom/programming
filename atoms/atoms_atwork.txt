@@ -1,0 +1,13 @@
+Along with German language, what are few other things we must plan for?
+
+0) If interested, apply for job seeker visa for Austria (I can tell you how to). Again, having German language is defintely a plus in Austria as well.
+1) Applying Germany JSV via VFS
+2) Preparing the checklist for JSV
+3) Maintenance of funds of at lest 6.5 lakhs, not so urgent though.
+4) Prepare a stunning online presence (LinkedIn profile + active GitHub repo + consistent HakerRank submissions + (setting up a CI))
+5) Catching the pace of C++ evolution - C++17, C++20
+6) Have a regular meetup on DSA, Problem Solving especially
+7) Keep applying on LinkedIn, Stepstone.de. Most important, be prepared to recieve "sorry" responses. Just 1 of 80 is a +ve response I've received.
+8) Maintaining a central store with "very very quality" books & videos
+
+I can help you for 1 & 2, it is very easy anyway
