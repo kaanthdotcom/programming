@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DealWithDuplicatesInVCF.cpp" />
+    <ClCompile Include="vcf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vcfline.h" />
+    <ClInclude Include="vcard.h" />
+    <ClInclude Include="vcf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

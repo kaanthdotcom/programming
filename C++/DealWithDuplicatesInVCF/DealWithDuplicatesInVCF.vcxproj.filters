@@ -18,5 +18,19 @@
     <ClCompile Include="DealWithDuplicatesInVCF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="vcf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vcard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vcf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vcfline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

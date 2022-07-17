@@ -1,0 +1,8 @@
+/*
+Author: Srikanth Bathula
+Purpose: To design an application that detects and mitigates with the duplicate contacts in a VCF () file.
+*/
+
+References:
+vCard 3.0 Specification at https://datatracker.ietf.org/doc/html/rfc2426
+1. https://www.w3.org/2002/12/cal/vcard-notes.html
