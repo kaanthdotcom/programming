@@ -1,7 +1,11 @@
 //source: https://docs.microsoft.com/en-us/cpp/cpp/move-constructors-and-move-assignment-operators-cpp?view=msvc-170
+//https://www.stroustrup.com/C++11FAQ.html
 
 #include <iostream>
 #include <vector>
+#include <ostream>
+
+using namespace std;
 
 struct mystring
 {
@@ -27,14 +31,15 @@ struct mystring
 
 		return *this;
 	}
-	mystring(mystring&& rhs)
+	mystring(mystring&& rhs):data{rhs.data}
 	{
 		std::cout << "move cons: " << rhs.data << std::endl;
 		*this = std::move(rhs);
+		rhs.data = nullptr;
 	}
 	mystring operator=(mystring&& rhs)
 	{
-		std::cout << "move assigment cons: " << rhs.data << std::endl;
+		std::cout << "move assg: " << rhs.data << std::endl;
 		if (this == &rhs)
 			return *this;
 		delete[] data;
@@ -59,12 +64,43 @@ struct mystring
 private:
 	char* data{nullptr};
 };
+//ostream& operator<<(const mystring& rhs, ostream& os)
+//{
+//
+//}
 
-int main_move()
+template<typename sometype>
+void moveswap(sometype a, sometype b)
 {
-	std::vector<mystring> v;
-	v.push_back(mystring("first"));
-	v.push_back(mystring("second"));
+	sometype tmp;
+	tmp = std::move(a);
+	a = std::move(b);
+	b = std::move(tmp);
+}
+
+template<typename sometype>
+void copyswap(sometype a, sometype b)
+{
+	sometype tmp;
+	tmp = a;
+	a = b;
+	b = tmp;
+}
+
+int main()
+{
+	mystring v{"This is first text message"};
+	mystring v1{ "This is second text message" };
+	
+	cout << "starting copyswap\n";
+	copyswap(v, v1);
+
+	cout << "\nstarting moveswap\n";
+	moveswap(v, v1);
+
+
+	/*v.push_back(mystring("first"));
+	v.push_back(mystring("second"));*/
 
 	return 0;
 }
