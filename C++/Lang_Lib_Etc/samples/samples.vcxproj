@@ -127,12 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryGap.cpp" />
     <ClCompile Include="complex.cpp" />
+    <ClCompile Include="constexpr.cpp" />
+    <ClCompile Include="containers.cpp" />
     <ClCompile Include="copyconstructor.cpp" />
     <ClCompile Include="diamondproblem.cpp" />
+    <ClCompile Include="dynamic_cast.cpp" />
     <ClCompile Include="explicit.cpp" />
+    <ClCompile Include="find.cpp" />
+    <ClCompile Include="find_if.cpp" />
+    <ClCompile Include="for_each.cpp" />
+    <ClCompile Include="functionobject.cpp" />
+    <ClCompile Include="largestpalindrome.cpp" />
     <ClCompile Include="move.cpp" />
+    <ClCompile Include="operatoroverloading.cpp" />
+    <ClCompile Include="reinterpret_cast.cpp" />
+    <ClCompile Include="singleton.cpp" />
+    <ClCompile Include="static_assert.cpp" />
     <ClCompile Include="stl_smartpointers.cpp" />
+    <ClCompile Include="variadic_template.cpp" />
+    <ClCompile Include="wordcount.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

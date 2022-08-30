@@ -87,7 +87,7 @@ void copyswap(sometype a, sometype b)
 	b = tmp;
 }
 
-int main()
+int main_move()
 {
 	mystring v{"This is first text message"};
 	mystring v1{ "This is second text message" };
