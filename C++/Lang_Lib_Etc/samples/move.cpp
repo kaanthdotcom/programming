@@ -1,5 +1,9 @@
-//source: https://docs.microsoft.com/en-us/cpp/cpp/move-constructors-and-move-assignment-operators-cpp?view=msvc-170
-//https://www.stroustrup.com/C++11FAQ.html
+/*
+sources:
+https://docs.microsoft.com/en-us/cpp/cpp/move-constructors-and-move-assignment-operators-cpp?view=msvc-170
+https://www.stroustrup.com/C++11FAQ.html
+
+*/
 
 #include <iostream>
 #include <vector>

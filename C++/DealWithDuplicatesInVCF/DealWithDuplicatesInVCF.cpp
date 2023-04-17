@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main(int argc, char* argv[])
+int main_main(int argc, char* argv[])
 {
 	if (argc < 3)
 	{
@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 	string infile(argv[1], find(argv[1], argv[1] + strlen(argv[1]), '\0'));
-	string outfile(argv[1], find(argv[1], argv[1] + strlen(argv[1]), '\0'));
+	string outfile(argv[2]);// , find(argv[1], argv[1] + strlen(argv[1]), '\0'));
 	
 	VCF* vcf = VCF::create(infile, outfile);
 	cout << vcf->length() << endl;
@@ -25,4 +25,16 @@ int main(int argc, char* argv[])
 	}
 
 	cout << vcf->length() << endl;
+}
+
+int main()
+{
+	string text{ "     5: FN:Aadhaar" };
+	string res{};
+	
+	for (auto it = find(begin(text), end(text), ':'); it != end(text); ++it)
+	{
+
+	}
+	return 0;
 }

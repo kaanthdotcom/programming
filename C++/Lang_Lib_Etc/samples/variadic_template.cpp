@@ -12,7 +12,7 @@ int print(x v, types... args)
 	return sizeof...(args);
 }
 
-int main()
+int main_variadic_template()
 {
 	print(12,"pop");
 
