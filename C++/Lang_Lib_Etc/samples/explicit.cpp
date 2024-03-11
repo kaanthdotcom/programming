@@ -11,11 +11,11 @@ using namespace std;
 class box
 {
 public:
-	explicit box(int x)
+	box(int x)
 	{
 		cout << "int x " << x << "\n";
 	}
-	explicit box(int x, int y)
+	box(int x, int y)
 	{
 		cout << "int x " << x <<", " << y << "\n";
 	}
@@ -31,7 +31,7 @@ void somefunc(box b)
 	cout << "somfunc(1)\n";
 }
 
-int main()
+int main_explicit()
 {
 	box b;
 	somefunc(b);

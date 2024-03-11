@@ -142,6 +142,7 @@
     <ClCompile Include="largestpalindrome.cpp" />
     <ClCompile Include="move.cpp" />
     <ClCompile Include="operatoroverloading.cpp" />
+    <ClCompile Include="producer_consumer.cpp" />
     <ClCompile Include="reinterpret_cast.cpp" />
     <ClCompile Include="singleton.cpp" />
     <ClCompile Include="static_assert.cpp" />
