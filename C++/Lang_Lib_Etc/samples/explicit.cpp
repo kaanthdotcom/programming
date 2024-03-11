@@ -35,12 +35,12 @@ int main_explicit()
 {
 	box b;
 	somefunc(b);
-	somefunc(10.5);//making box(int) constructor as 'explicit' will disallow this implicit type conversions
-	somefunc(2, 5);
+	//somefunc(10.5);//making box(int) constructor as 'explicit' will disallow this implicit type conversions
+	//somefunc(2, 5);
 	somefunc(box(2, 5));//->#20,#31
-	somefunc((21, 15), (211, 115));
-	somefunc({ 22, 16 }, { 212, 116 });
-	somefunc({ 28, 18 });
+	//somefunc((21, 15), (211, 115));
+	//somefunc({ 22, 16 }, { 212, 116 });
+	//somefunc({ 28, 18 });
 	somefunc(box(30.5));
 
 	return 0;
